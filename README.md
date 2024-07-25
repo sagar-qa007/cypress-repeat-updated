@@ -37,6 +37,14 @@ You can rerun only the specs that failed
 npx cypress-repeat run -n <N> --until-passes --rerun-failed-only ... rest of "cypress run" arguments
 ```
 
+### Rerun only failed Specs
+
+You can force continue running through all iterations even if a test fails
+
+```shell
+npx cypress-repeat run -n <N> --force ... rest of "cypress run" arguments
+```
+
 ### Env variables
 
 Every run has two utility variables injected
@@ -59,3 +67,4 @@ This NPM module retries the entire Cypress run, if you need to retry just the fa
 [ci url]: https://github.com/bahmutov/cypress-repeat/actions
 [renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
 [renovate-app]: https://renovateapp.com/
+[Copied code from]: https://github.com/bahmutov/cypress-repeat/pull/65 
