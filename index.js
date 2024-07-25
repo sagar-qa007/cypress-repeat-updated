@@ -2,7 +2,7 @@
 
 // @ts-check
 
-const debug = require('debug')('cypress-repeat')
+const debug = require('debug')('cypress-repeat-sk')
 
 // allows us to debug any cypress install problems
 debug('requiring cypress with module.paths %o', module.paths)
@@ -24,7 +24,7 @@ const args = arg(
   },
   { permissive: true },
 )
-const name = 'cypress-repeat:'
+const name = 'cypress-repeat-sk:'
 const repeatNtimes = '-n' in args ? args['-n'] : 1
 const untilPasses = '--until-passes' in args ? args['--until-passes'] : false
 const rerunFailedOnly =

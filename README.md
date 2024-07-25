@@ -1,4 +1,4 @@
-# cypress-repeat [![ci status][ci image]][ci url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.7.0-brightgreen)
+# cypress-repeat-sk [![ci status][ci image]][ci url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.7.0-brightgreen)
 
 > Run Cypress multiple times in a row, great at finding test flake
 
@@ -7,9 +7,9 @@ Read [Wrap Cypress Using NPM Module API](https://glebbahmutov.com/blog/wrap-cypr
 ## Install
 
 ```shell
-npm i -D cypress-repeat
+npm i -D cypress-repeat-sk
 # or using Yarn
-yarn add -D cypress-repeat
+yarn add -D cypress-repeat-sk
 ```
 
 This module assumes the `cypress` dependency v5.3.0+ has been installed.
@@ -17,7 +17,7 @@ This module assumes the `cypress` dependency v5.3.0+ has been installed.
 ## Use
 
 ```shell
-npx cypress-repeat run -n <N> ... rest of "cypress run" arguments
+npx cypress-repeat-sk run -n <N> ... rest of "cypress run" arguments
 ```
 
 Which will run Cypresss `<N>` times, exiting after the first failed run or after all runs finish successfully.
@@ -27,14 +27,14 @@ Which will run Cypresss `<N>` times, exiting after the first failed run or after
 You can flip the logic and run Cypress up to N times until the first successful exit
 
 ```shell
-npx cypress-repeat run -n <N> --until-passes ... rest of "cypress run" arguments
+npx cypress-repeat-sk run -n <N> --until-passes ... rest of "cypress run" arguments
 ```
 ### Rerun only failed Specs
 
 You can rerun only the specs that failed
 
 ```shell
-npx cypress-repeat run -n <N> --until-passes --rerun-failed-only ... rest of "cypress run" arguments
+npx cypress-repeat-sk run -n <N> --until-passes --rerun-failed-only ... rest of "cypress run" arguments
 ```
 
 ### Rerun only failed Specs
@@ -42,7 +42,7 @@ npx cypress-repeat run -n <N> --until-passes --rerun-failed-only ... rest of "cy
 You can force continue running through all iterations even if a test fails
 
 ```shell
-npx cypress-repeat run -n <N> --force ... rest of "cypress run" arguments
+npx cypress-repeat-sk run -n <N> --force ... rest of "cypress run" arguments
 ```
 
 ### Env variables
@@ -57,7 +57,7 @@ const k = Cypress.env('cypress_repeat_k') // current attempt, starts with 1
 
 ## Debugging
 
-Run this script with environment variable `DEBUG=cypress-repeat` to see verbose logs
+Run this script with environment variable `DEBUG=cypress-repeat-sk` to see verbose logs
 
 ## What about test retries?
 
