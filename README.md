@@ -1,4 +1,4 @@
-# cypress-repeat [![ci status][ci image]][ci url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.7.0-brightgreen)
+# cypress-repeat-updated [![ci status][ci image]][ci url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.7.0-brightgreen)
 
 > Run Cypress multiple times in a row, great at finding test flake
 
@@ -7,9 +7,9 @@ Read [Wrap Cypress Using NPM Module API](https://glebbahmutov.com/blog/wrap-cypr
 ## Install
 
 ```shell
-npm i -D cypress-repeat
+npm i -D cypress-repeat-updated
 # or using Yarn
-yarn add -D cypress-repeat
+yarn add -D cypress-repeat-updated
 ```
 
 This module assumes the `cypress` dependency v5.3.0+ has been installed.
