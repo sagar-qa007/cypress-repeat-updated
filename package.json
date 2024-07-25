@@ -1,7 +1,7 @@
 {
-  "name": "cypress-repeat",
+  "name": "cypress-repeat-updated",
   "version": "0.0.0-development",
-  "description": "Run Cypress multiple times in a row",
+  "description": "Run Cypress multiple times in a row with new options",
   "bin": {
     "cypress-repeat": "index.js"
   },
