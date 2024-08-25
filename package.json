@@ -18,18 +18,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahmutov/cypress-repeat.git"
+    "url": "https://github.com/sagar-qa007/cypress-repeat-updated.git"
   },
   "keywords": [
     "cypress",
     "cli"
   ],
-  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "author": "Sagar K <tester.sagar.007@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bahmutov/cypress-repeat/issues"
+    "url": "https://github.com/sagar-qa007/cypress-repeat-updated/issues"
   },
-  "homepage": "https://github.com/bahmutov/cypress-repeat#readme",
+  "homepage": "https://github.com/sagar-qa007/cypress-repeat-updated#readme",
   "devDependencies": {
     "@types/node": "14.10.1",
     "cypress": "^13.3.0",
