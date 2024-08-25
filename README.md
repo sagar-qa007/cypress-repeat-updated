@@ -1,4 +1,5 @@
-# cypress-repeat-updated [![ci status][ci image]][ci url] [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.7.0-brightgreen)
+# cypress-repeat-updated 
+[cypress version](https://img.shields.io/badge/cypress-8.7.0-brightgreen)
 
 > Run Cypress multiple times in a row, great at finding test flake
 
