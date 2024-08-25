@@ -9,6 +9,8 @@
     "index.js"
   ],
   "scripts": {
+    "install:cypress": "cypress install",
+    "test:cypress": "cypress run",
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo:twice": "node . run -n 2",
     "demo:until-passes": "node . run -n 2 --until-passes",

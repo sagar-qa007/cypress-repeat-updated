@@ -1,0 +1,6 @@
+***** Repeat Run Summary *****
+Total Tests with repeat: 16
+Total Passed: 14
+Total Failed: 2
+Total Skipped: 0
+*****************************
