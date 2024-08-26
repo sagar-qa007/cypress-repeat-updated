@@ -13,7 +13,7 @@ require('dotenv').config();
 debug('process argv %o', process.argv);
 
 // Path to the summary file
-const summaryFilePath = path.join(__dirname, 'cy-repeat-summary.txt');
+const summaryFilePath = path.join(process.cwd(), 'cy-repeat-summary.txt');
 
 if (fs.existsSync(summaryFilePath)) {
   console.log('Deleting existing summary file');
