@@ -170,8 +170,9 @@ parseArguments()
 
     console.log('Writing result summary to file...');
     try {
-      fs.writeFileSync(summaryFilePath, resultSummary);
-      console.log('Result summary written successfully');
+      const absoluteSummaryFilePath = path.resolve(summaryFilePath);
+      fs.writeFileSync(absoluteSummaryFilePath, resultSummary);
+      console.log(`Result summary written successfully at: ${absoluteSummaryFilePath}`);
     } catch (err) {
       console.error('Error writing result summary to file:', err.message);
     }
